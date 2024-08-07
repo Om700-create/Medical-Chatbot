@@ -50,7 +50,7 @@ qa=RetrievalQA.from_chain_type(
 
 @app.route("/")
 def index():
-    return render_template('chat.html')
+    return render_template('chat.html') #here we are calling html code. It has been copying from bootstrap
 
 
 
