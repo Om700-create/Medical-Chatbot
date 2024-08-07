@@ -1,6 +1,6 @@
 # Medical-Chatbot
 
-       ## INDRODUCTION
+## INDRODUCTION
 
 The Gale Encyclopedia of Medicine 2 (GEM2) is a
 one-stop source for medical information on nearly 1,700
