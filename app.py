@@ -36,8 +36,7 @@ chain_type_kwargs={"prompt": PROMPT}
 llm=CTransformers(model="model/llama-2-7b-chat.ggmlv3.q4_0.bin", #This is our meta llama model 
                   model_type="llama",
                   config={'max_new_tokens':512,
-                          'temperature':0.8})
-
+                          'temperature':0.3})
 
 qa=RetrievalQA.from_chain_type(
     llm=llm, 
@@ -54,6 +53,7 @@ def index():
 
 
 
+#Here we are printing the response and sending back to the QA
 @app.route("/get", methods=["GET", "POST"])
 def chat():
     msg = request.form["msg"]
