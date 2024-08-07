@@ -1,6 +1,6 @@
 ctransformers==0.2.27
 sentence-transformers==3.0.1
-pinecone-client
+pinecone-client ##we can used chormodb also
 langchain==0.2.12
 flask
 pypdf
