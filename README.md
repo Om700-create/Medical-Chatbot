@@ -1,5 +1,9 @@
 # Medical-Chatbot
 
+# Chatbot-using-Llama2
+llama2 is from meta and it's open source model.
+
+
 ## INDRODUCTION
 
 The Gale Encyclopedia of Medicine 2 (GEM2) is a
