@@ -5,4 +5,5 @@ langchain==0.2.12
 flask
 pypdf
 python-dotenv
+langchain-community==0.2.11
 -e .
